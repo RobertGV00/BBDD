@@ -1,0 +1,33 @@
+USE conquista_del_tiempo;
+INSERT INTO habilidades VALUES (1, 'Inteligencia', 'Puede utilizar cualquier ítem de cualquier época.');
+INSERT INTO habilidades VALUES (2, 'Ataque fecal', 'Se le reduce la defensa y 2 turnos sin atacar(si tira la caca al personaje principal) y pierde de 1 a 6 peones (si se la tira a los peones).');
+INSERT INTO habilidades VALUES (3, 'Lanza', 'Al personaje principal 300 de vida por cada casilla de distancia pierde 20 de ataque. (máximo 5 casillas). A los peones mata de 1 a 2 peones. (máximo dos casillas)
+.');
+INSERT INTO habilidades VALUES (4, 'Avance', 'puede avanzar dos casillas con el principal.
+Puño suelo: En área quita 300 de defensa. si no tiene defensa le quita la vida.');
+INSERT INTO habilidades VALUES (5, 'Puño suelo', 'En área quita 300 de defensa. si no tiene defensa le quita la vida.');
+INSERT INTO habilidades VALUES (6, 'Tropas aire', 'Puede atacar a las tropas de aire (2 aviones o 1 nave), si no hay nadie aire hace un salto y daña 500 de defensa o de vida.');
+INSERT INTO habilidades VALUES (7, 'Cueva', 'No puede ser atacado en 2 rondas.');
+INSERT INTO habilidades VALUES (8, 'Forjar arma', 'Incrementa el daño de ataque un 30%');
+INSERT INTO habilidades VALUES (9, 'Domador de bestias', 'Convierte dos peones en mamuts.');
+INSERT INTO habilidades VALUES (10, 'Maestro de la supervivencia', 'se le aumenta la vida, el ataque y la defensa un 20%');
+INSERT INTO habilidades VALUES (11, 'Comunicación con tribus', 'intercambia peones especiales con otro jugador.');
+INSERT INTO habilidades VALUES (12, 'Descubrimos el fuego', 'Quema a sus enemigos en un área y pierden sus cartas especiales, si el área no está conquistada se quema y no puede ser conquistada en ese turno. El área es de 3 casillas y va empieza un turno en una y el siguiente turno la siguiente apagándose la anterior.');
+INSERT INTO habilidades VALUES (13, 'Discurso ', 'Sus peones ganan 100 de ataque.');
+INSERT INTO habilidades VALUES (14, 'Emboscadas', 'Puede atacar a los peones terrestres en cualquier casilla. y sus peones no mueren');
+INSERT INTO habilidades VALUES (15, 'Carga de Caballería', 'Podría liderar una carga de caballería pesada, atravesando las líneas enemigas y causando estragos en sus filas.');
+INSERT INTO habilidades VALUES (16, 'Ataques de Guerra Psicológica ', 'Podría utilizar técnicas de guerra psicológica, como ejecuciones públicas de prisioneros o exhibiciones de fuerza, para intimidar al enemigo y minar su moral baja la defensa 20% al personaje principal y los peones no pueden atacar en 2 turnos.');
+INSERT INTO habilidades VALUES (17, 'Redes de Espionaje', 'Podría establecer redes de espionaje para recopilar información sobre los movimientos y planes del enemigo puedes ver las cartas ocultas del jugador a elegir.');
+INSERT INTO habilidades VALUES (18, 'Robo', ' Roba 10 peones al jugador más cercano.');
+INSERT INTO habilidades VALUES (19, 'Bomba Nuclear ', 'Lanza una bomba en un territorio a conquistar y no se puede conquistar por el resto de jugadores en 4 turnos.');
+INSERT INTO habilidades VALUES (20, 'Lanza misiles', 'En área elimina a todos los peones del área. Al personaje principal 500 de defensa y si no tiene vida.');
+INSERT INTO habilidades VALUES (21, 'Ataque PEM', 'Desactiva todos los aparatos electrónicos en un área de 4 casillas durante 3 turnos.');
+INSERT INTO habilidades VALUES (22, 'Diplomacia ', 'Elige a un jugador y no se puede atacar en 5 turnos.');
+INSERT INTO habilidades VALUES (23, 'Tanque', 'Los peones tanques aumenta el ataque de los tanques en 150% durante dos turnos.');
+INSERT INTO habilidades VALUES (24, 'Ataque biológico', 'Baja el ataque y la vida un 50% durante 4 días (rondas).');
+INSERT INTO habilidades VALUES (25, 'Control mental ', 'Controla a los peones de otro jugador durante una ronda.');
+INSERT INTO habilidades VALUES (26, 'Viaje al pasado', 'Trae del pasado un peón especial de una época al azar.');
+INSERT INTO habilidades VALUES (27, 'Campo electromagnético', 'Genera un escudo electromagnético en un área de 3 casillas y ninguna tropa rival puede atravesarlo.');
+INSERT INTO habilidades VALUES (28, 'Regeneración Acelerada ', 'Regenera la vida de todos los peones en un área de 5 casillas.');
+INSERT INTO habilidades VALUES (29, 'Hackeo', 'Inhabilita las armas desde la edad moderna en adelante durante 2 turnos.');
+INSERT INTO habilidades VALUES (30, 'Teletransporte', 'Puede teletransportarse a cualquier parte del mapa.');
